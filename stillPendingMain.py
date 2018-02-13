@@ -1,27 +1,29 @@
 import discord
-import asyncio
+from discord.ext import commands
+from discord.voice_client import VoiceClient
 
-client = discord.Client()
+startup_extensions = ["Music"]
+bot = commands.Bot("?")
 
-@client.event
+
+@bot.event
 async def on_ready():
     print('Logged in as')
     print(client.user.name)
     print(client.user.id)
     print('------')
 
-@client.event
-async def on_message(message):
-    if message.content.startswith('!test'):
-        counter = 0
-        tmp = await client.send_message(message.channel, 'Calculating messages...')
-        async for log in client.logs_from(message.channel, limit=100):
-            if log.author == message.author:
-                counter += 1
+class Main_Commands():
+    def __init__(self,  bot):
+        self.bot = bot
 
-        await client.edit_message(tmp, 'You have {} messages.'.format(counter))
-    elif message.content.startswith('!sleep'):
-        await asyncio.sleep(5)
-        await client.send_message(message.channel, 'Done sleeping')
+if __name__ == "__main__":
+    for extension in startup_extensions:
+        try:
+            bot.load_extension(extension)
+        except Exception as e:
+            exc = '{}:  {}'.format(type(e).__name__, e)
+            print('failed to load extension {}\n{}'.format(extension, exc))
 
-client.run('NDA4NTY5NzUyMzExNTYyMjQw.DVYr0A.wvTcWnSsJvwNF-J_E9Q5dShhlg4')
+
+bot.run('NDA4NTY5NzUyMzExNTYyMjQw.DVYr0A.wvTcWnSsJvwNF-J_E9Q5dShhlg4')
