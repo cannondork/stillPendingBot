@@ -15,7 +15,7 @@
 - [Commands](#features)
 - [Documentation](#documentation)
 - [Contribution](#team)
-- [Bugs and reports](#bugs and reports)
+- [Bugs And Reports](#bugs)
 - [Licence](#license)
 ---
 
