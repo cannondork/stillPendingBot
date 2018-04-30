@@ -11,18 +11,18 @@
 
 
 
-- [Quick Guide](#installation)
-- [Commands](#features)
+- [QuickGuide](#quickguide)
+- [Commands](#commands)
 - [Documentation](#documentation)
-- [Contribution](#team)
-- [Bugs And Reports](#bugs)
+- [Contribution](#contribution)
+- [FAQ](#faq)
 - [Licence](#license)
 ---
 
 
 
 
-## Quick Guide
+## QuickGuide
 
 
 
@@ -49,7 +49,7 @@
 
 
 
-## Bugs and reports
+## FAQ
 
 
 
