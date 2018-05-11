@@ -3,7 +3,9 @@
 
 # [stillPendingBot](https://emojidefine.com/wp-content/uploads/2017/05/Thinking-Face-Windows-Emoji.png)
 
-Welcome to StillPendingBot! StillPendingBot is an all-purpose bot you'll find out there, packed with features in entertainment, utility and streaming music into voice channels, queuing songs to a playlist. StillPendingBot was designed to bring more activity to your server, with but elegant moderation features.
+Welcome to StillPendingBot! 
+
+StillPendingBot is an all-purpose bot you'll find out there, packed with features in entertainment, utility and streaming music into voice channels, queuing songs to a playlist. StillPendingBot was designed to bring more activity to your server, with but elegant moderation features.
 
 
 ---
