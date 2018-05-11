@@ -68,9 +68,19 @@ async def roll(dice : str):
 
 
 @client.command()
-async def add(left : int, right : int):
+async def add(left : float, right : float):
     """Adds two numbers together."""
     await client.say(left + right)
+	
+@client.command()
+async def minus(left : float, right : float
+    """Subtracts left from right."""
+    await client.say(left - right)
+
+@client.command()
+async def multiply(left : float, right : float):
+    """Multiplies two numbers."""
+    await client.say(left * right)
 
 @client.command(description='For when you wanna settle the score some other way')
 async def choose(*choices : str):
