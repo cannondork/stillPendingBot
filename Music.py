@@ -6,7 +6,7 @@ if not discord.opus.is_loaded():
     # or libopus.so on linux in the current directory
     # you should replace this with the location the
     # opus library is located in and with the proper filename.
-    # note that on windows this DLL is automatically provided for you
+    # note that on windows this DLL is automatically provided for
     discord.opus.load_opus('opus')
 
 def __init__(self, bot):
