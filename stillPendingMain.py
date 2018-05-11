@@ -73,15 +73,21 @@ async def add(left : float, right : float):
     await client.say(left + right)
 	
 @client.command()
-async def minus(left : float, right : float
-    """Subtracts left from right."""
-    await client.say(left - right)
-
-@client.command()
 async def multiply(left : float, right : float):
-    """Multiplies two numbers."""
+    """multiplies two numbers together."""
     await client.say(left * right)
 
+@client.command()
+async def divide(left : float, right : float):
+    """divides two numbers together."""
+    await client.say(left / right)
+
+@client.command()
+async def minus(left : float, right : float):
+    """Minus two numbers together."""
+    await client.say(left - right)
+
+    
 @client.command(description='For when you wanna settle the score some other way')
 async def choose(*choices : str):
     """Chooses between multiple choices."""
