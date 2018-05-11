@@ -74,17 +74,17 @@ async def add(left : float, right : float):
 	
 @client.command()
 async def multiply(left : float, right : float):
-    """multiplies two numbers together."""
+    """Multiplies left by right."""
     await client.say(left * right)
 
 @client.command()
 async def divide(left : float, right : float):
-    """divides two numbers together."""
+    """Divides left by right."""
     await client.say(left / right)
 
 @client.command()
 async def minus(left : float, right : float):
-    """Minus two numbers together."""
+    """Subtracts right from left."""
     await client.say(left - right)
 
     
