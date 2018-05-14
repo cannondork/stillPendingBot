@@ -63,9 +63,9 @@ Command | What it does
 Command | What it does 
 --- | --- 
 `?play <music_link>` | Add music into queue 
-`?stop ` | Stops the following music
+`?stop` | Stops the following music
 `?votenext` | Vote to skip current song 
-`?skip ` | skips the following music
+`?skip` | skips the following music
 
 
 ### 8ball
