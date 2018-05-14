@@ -50,19 +50,17 @@ For Apple Mac!<br>
 - Downlodad the latest files from GitHub, change bot token faile which is located in stillpendingmain.py
 - Finally open your terminal and write "python stillpendingmain.py"
 
-
-
 ## Commands
 
 
 ### General commands
-Command | What it does |
+Command | What it does | Who can do it?
 --- | --- | ---
 `!help` | Gives a list of all of the commands |
 
 
 ### Music commands
-Command | What it does |
+Command | What it does | Who can do it?
 --- | --- | ---
 `?play <music_link>` | Add music into queue 
 `?stop ` | Stops the following music
@@ -71,13 +69,13 @@ Command | What it does |
 
 
 ### 8ball
-Command | What it does |
+Command | What it does | Who can do it?
 --- | --- | ---
 `!8ball <question>` | Can answer everything |
 
 
 ### Math Commands
-Command | What it does |
+Command | What it does | Who can do it?
 --- | --- | ---
 `?add <math question>` | Adds two numbers |
 `?minus <math question>` | Minus two numbers |
@@ -85,7 +83,7 @@ Command | What it does |
 `?multiply <math question>` |  two numbers |
 
 ### Dice Commands
-Command | What it does |
+Command | What it does | Who can do it?
 --- | --- | ---
 `?roll <math question>` | Rolls a dice in NdN format |
 `?choose <math question>` | For when you wanna settle the score some other way |
