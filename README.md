@@ -29,15 +29,21 @@ StillPendingBot is an all-purpose bot you'll find out there, packed with feature
 ## QuickGuide 📍
 - [You need python 3.x.](https://www.python.org/downloads/)
 - You need to have ffmpeg installed on your machine.. [Tutorial for FFmpeg(Windows)](http://www.hongkiat.com/blog/ffmpeg-guide/). <br> And for ubuntu and mac users.. [Tutorial for ubuntu FFmpeg ](https://medium.com/portfolio-of-bilash/install-ffmpeg-on-ubuntu-mac-os-98588f3251d7)
-
 - Open terminal.. and write in the following commands!
+
 
 For windows/ubuntu people<br>
 `pip install libffi-dev`<br>
 `pip install discord.py[voice]`<br>
 `pip install youtube-dl`<br>
-`pip install simpleeval`<br>
 <br>
+
+For Apple Mac!<br>
+`pip install discord.py[voice]`<br>
+`pip install youtube-dl`<br>
+`brew install ffmpeg`<br>
+`brew install opus`<br>
+`And then open up python3.6 package and run Install Certificates.command`<br>
 
 
 
