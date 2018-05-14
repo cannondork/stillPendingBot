@@ -55,9 +55,40 @@ For Apple Mac!<br>
 ## Commands
 
 
+### General commands
+Command | What it does |
+--- | --- | ---
+`!help` | Gives a list of all of the commands |
 
 
+### Music commands
+Command | What it does |
+--- | --- | ---
+`?play <music_link>` | Add music into queue 
+`?stop ` | Stops the following music
+`?votenext` | Vote to skip current song 
+`?skip ` | skips the following music
 
+
+### 8ball
+Command | What it does | Who can do it?
+--- | --- | ---
+`!8ball <question>` | Can answer everything |
+
+
+### Math Commands
+Command | What it does | Who can do it?
+--- | --- | ---
+`?add <math question>` | Adds two numbers |
+`?minus <math question>` | Minus two numbers |
+`?divide <math question>` | Divides two numbers |
+`?multiply <math question>` |  two numbers |
+
+### Dice Commands
+Command | What it does | Who can do it?
+--- | --- | ---
+`?roll <math question>` | Rolls a dice in NdN format |
+`?choose <math question>` | For when you wanna settle the score some other way |
 
 ## Documentation
 
