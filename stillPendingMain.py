@@ -53,7 +53,32 @@ async def eight_ball(context):
     ]
     await client.say(random.choice(possible_responses) + ", " + context.message.author.mention)
 
+#code taken from https://github.com/drkatnz/discord-quizbot/blob/master/
+@client.event
+async def on_message(message):
+    if message.content.startswith('!logoff'):
+        await client.send_message(message.channel, 'Leaving server. BYE!')
+        await client.close()
+        exit()
+        
+    elif (message.content.startswith('!halt') or 
+          message.content.startswith('!stop')):
+        await quiz.stop()
+    elif (message.content.startswith('!reset')):
+        await quiz.reset()        
+    elif (message.content.startswith('!quiz') or 
+          message.content.startswith('!ask')):
+        await quiz.start(message.channel)      
+    elif (message.content.startswith('!scores')):
+        await quiz.print_scores()    
+    elif (message.content.startswith('!next')):
+        await quiz.next_question(message.channel)
+    elif quiz is not None and quiz.started():
+        #check if we have a question pending
+        await quiz.answer_question(message)
+        #check quiz question correct
 
+	
 @client.command()
 async def roll(dice : str):
     """Rolls a dice in NdN format."""
@@ -62,7 +87,6 @@ async def roll(dice : str):
     except Exception:
         await client.say('Format has to be in NdN!')
         return
-
     result = ', '.join(str(random.randint(1, limit)) for r in range(rolls))
     await client.say(result)
 
@@ -84,7 +108,7 @@ async def divide(left : float, right : float):
 
 @client.command()
 async def minus(left : float, right : float):
-    """Minus two numbers together."""
+    """Subtract right from left."""
     await client.say(left - right)
 
     
