@@ -38,22 +38,7 @@ if __name__ == "__main__":
             exc = '{}:  {}'.format(type(e).__name__, e)
             print('failed to load extension {}\n{}'.format(extension, exc))
 
-@client.command(name='8ball',
-                description="Answers a yes/no question.",
-                brief="Answers from the beyond.",
-                aliases=['eight_ball', 'eightball', '8-ball'],
-                pass_context=True)
-async def eight_ball(context):
-    possible_responses = [
-        'That is a resounding no',
-        'It is not looking likely',
-        'Too hard to tell',
-        'It is quite possible',
-        'Definitely',
-    ]
-    await client.say(random.choice(possible_responses) + ", " + context.message.author.mention)
-
-#code taken from https://github.com/drkatnz/discord-quizbot/blob/master/
+"""code taken from https://github.com/drkatnz/discord-quizbot/blob/master/"""
 @client.event
 async def on_message(message):
     if message.content.startswith('!logoff'):
@@ -74,9 +59,23 @@ async def on_message(message):
     elif (message.content.startswith('!next')):
         await quiz.next_question(message.channel)
     elif quiz is not None and quiz.started():
-        #check if we have a question pending
         await quiz.answer_question(message)
-        #check quiz question correct
+
+
+@client.command(name='8ball',
+                description="Answers a yes/no question.",
+                brief="Answers from the beyond.",
+                aliases=['eight_ball', 'eightball', '8-ball'],
+                pass_context=True)
+async def eight_ball(context):
+    possible_responses = [
+        'That is a resounding no',
+        'It is not looking likely',
+        'Too hard to tell',
+        'It is quite possible',
+        'Definitely',
+    ]
+    await client.say(random.choice(possible_responses) + ", " + context.message.author.mention)
 
 
 @client.command()
