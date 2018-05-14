@@ -60,8 +60,8 @@ Command | What it does
 
 
 ### Music commands
-Command | What it does | Who can do it?
---- | --- | ---
+Command | What it does 
+--- | --- 
 `?play <music_link>` | Add music into queue 
 `?stop ` | Stops the following music
 `?votenext` | Vote to skip current song 
@@ -69,22 +69,22 @@ Command | What it does | Who can do it?
 
 
 ### 8ball
-Command | What it does | Who can do it?
---- | --- | ---
+Command | What it does 
+--- | --- 
 `!8ball <question>` | Can answer everything |
 
 
 ### Math Commands
-Command | What it does | Who can do it?
---- | --- | ---
+Command | What it does 
+--- | --- 
 `?add <math question>` | Adds two numbers |
 `?minus <math question>` | Minus two numbers |
 `?divide <math question>` | Divides two numbers |
 `?multiply <math question>` |  two numbers |
 
 ### Dice Commands
-Command | What it does | Who can do it?
---- | --- | ---
+Command | What it does 
+--- | --- 
 `?roll <math question>` | Rolls a dice in NdN format |
 `?choose <math question>` | For when you wanna settle the score some other way |
 
