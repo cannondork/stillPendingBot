@@ -80,7 +80,7 @@ Command | What it does
 `?add <math question>` | Adds two numbers |
 `?minus <math question>` | Minus two numbers |
 `?divide <math question>` | Divides two numbers |
-`?multiply <math question>` |  two numbers |
+`?multiply <math question>` | Multiplies two numbers |
 
 ### Dice Commands
 Command | What it does 
