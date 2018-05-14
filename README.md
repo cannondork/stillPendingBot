@@ -71,7 +71,7 @@ Command | What it does |
 
 
 ### 8ball
-Command | What it does | Who can do it?
+Command | What it does |
 --- | --- | ---
 `!8ball <question>` | Can answer everything |
 
@@ -85,7 +85,7 @@ Command | What it does | Who can do it?
 `?multiply <math question>` |  two numbers |
 
 ### Dice Commands
-Command | What it does | Who can do it?
+Command | What it does |
 --- | --- | ---
 `?roll <math question>` | Rolls a dice in NdN format |
 `?choose <math question>` | For when you wanna settle the score some other way |
