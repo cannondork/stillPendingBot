@@ -60,17 +60,17 @@ async def on_message(message):
         await client.send_message(message.channel, 'Leaving server. BYE!')
         await client.close()
         exit()
-        
-    elif (message.content.startswith('!halt') or 
+
+    elif (message.content.startswith('!halt') or
           message.content.startswith('!stop')):
         await quiz.stop()
     elif (message.content.startswith('!reset')):
-        await quiz.reset()        
-    elif (message.content.startswith('!quiz') or 
+        await quiz.reset()
+    elif (message.content.startswith('!quiz') or
           message.content.startswith('!ask')):
-        await quiz.start(message.channel)      
+        await quiz.start(message.channel)
     elif (message.content.startswith('!scores')):
-        await quiz.print_scores()    
+        await quiz.print_scores()
     elif (message.content.startswith('!next')):
         await quiz.next_question(message.channel)
     elif quiz is not None and quiz.started():
@@ -78,7 +78,7 @@ async def on_message(message):
         await quiz.answer_question(message)
         #check quiz question correct
 
-	
+
 @client.command()
 async def roll(dice : str):
     """Rolls a dice in NdN format."""
@@ -95,7 +95,7 @@ async def roll(dice : str):
 async def add(left : float, right : float):
     """Adds two numbers together."""
     await client.say(left + right)
-	
+
 @client.command()
 async def multiply(left : float, right : float):
     """multiplies two numbers together."""
@@ -111,7 +111,6 @@ async def minus(left : float, right : float):
     """Subtract right from left."""
     await client.say(left - right)
 
-    
 @client.command(description='For when you wanna settle the score some other way')
 async def choose(*choices : str):
     """Chooses between multiple choices."""
