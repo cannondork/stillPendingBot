@@ -77,7 +77,7 @@ Command | What it does |
 
 
 ### Math Commands
-Command | What it does | Who can do it?
+Command | What it does |
 --- | --- | ---
 `?add <math question>` | Adds two numbers |
 `?minus <math question>` | Minus two numbers |
