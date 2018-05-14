@@ -54,9 +54,9 @@ For Apple Mac!<br>
 
 
 ### General commands
-Command | What it does | Who can do it?
---- | --- | ---
-`!help` | Gives a list of all of the commands |
+Command | What it does
+--- | --- 
+`!help` | Gives a list of all of the commands
 
 
 ### Music commands
