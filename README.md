@@ -85,8 +85,8 @@ Command | What it does
 ### Dice Commands
 Command | What it does 
 --- | --- 
-`?roll <math question>` | Rolls a dice in NdN format |
-`?choose <math question>` | For when you wanna settle the score some other way |
+`?roll <numbers>` | Rolls a dice in NdN format |
+`?choose <random question>` | For when you wanna settle the score some other way |
 
 ## Documentation
 
