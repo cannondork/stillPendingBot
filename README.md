@@ -101,4 +101,5 @@ Command | What it does
 
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
 
-
+## Credits for open repositories 
+https://github.com/Rapptz/discord.py
