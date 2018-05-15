@@ -17,11 +17,9 @@ StillPendingBot is an all-purpose bot you'll find out there, packed with feature
 
 
 - [QuickGuide](#quickguide)
-- [Commands](#commands)
-- [Documentation](#documentation)
-- [Contribution](#contribution)
-- [FAQ](#faq)
+- [Commands and Documentation](#contribution)
 - [Licence](#license)
+- [Credits](#credits)
 ---
 
 
@@ -96,5 +94,5 @@ Command | What it does
 
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
 
-## Credits for open repositories 
+## Credits
 https://github.com/Rapptz/discord.py
