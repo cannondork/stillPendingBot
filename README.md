@@ -51,7 +51,7 @@ For Apple Mac!<br>
 - Downlodad the latest files from GitHub, change bot token faile which is located in stillpendingmain.py
 - Finally open your terminal and write "python stillpendingmain.py"
 
-## Commands ✔️ 
+## Commands and Documentation 📈
 
 
 ### General commands
@@ -88,11 +88,6 @@ Command | What it does
 --- | --- 
 `?roll <numbers>` | Rolls a dice in NdN format |
 `?choose <random question>` | For when you wanna settle the score some other way |
-
-
-## Documentation 📈
-
-
 
 
 ## Licence
